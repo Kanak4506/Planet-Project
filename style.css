@@ -89,3 +89,102 @@ h1 {
     color: white;
     background-color: #494949;
 }
+
+
+
+@media screen and (max-width: 450px) {
+    .main_container {
+        width: 400px;
+        padding: 5px;
+
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav_items {
+        padding: 0px 15px;
+        margin: 15px 48px;
+    }
+
+    .hide {
+        font-size: 20px;
+    }
+
+    .starting img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .result_planet_img img {
+        height: 400px;
+        width: 400px;
+        margin-bottom: 14px;
+
+    }
+
+    .planet_container {
+        flex-direction: column;
+        margin: 25px;
+        padding: 25px;
+
+    }
+
+    .selected_planet_result {
+        font-family: cursive;
+        height: 60px;
+        font-size: 23px;
+        color: white;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .main_container {
+        margin: 20px;
+
+    }
+    h1 {
+        font-size: 14px;
+        margin-left: 22px;
+    }
+    .starting img {
+        height: 200px;
+        width: 200px;
+    }
+
+    
+    .result_planet_img img {
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .planet_container {
+        flex-direction: column;
+        margin: 25px;
+        padding: 25px;
+
+    }
+
+    .selected_planet_result {
+        font-size: 18px;
+    }
+    .selected_planet_mass {
+        padding: 20px;
+        font-size: 15px;
+        margin-left: 195px;
+    }
+    
+    .result_mass {
+        height: 200px;
+        width: 300px;
+    }
+    
+}
