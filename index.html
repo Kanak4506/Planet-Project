@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 24</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="main_container">
+
+        <h1>Calculate the weight of an object on a planet</h1>
+        <div class="nav">
+            <input type="number" placeholder="Mass in Kilogram" id="mass" class="nav_items">
+
+            <select class="planets  nav_items">
+                <option value="none" data-image="none.png">--select planet --</option>
+                <option value="0.38" data-image="assests/images/mercury (1).png">MERCURY</option>
+                <option value="0.91" data-image="assests/images/venus.png">VENUS</option>
+                <option value="1.00" data-image="assests/images/earth.png">EARTH</option>
+                <option value="0.38" data-image="assests/images/mars.png">MARS</option>
+                <option value="2.34" data-image="assests/images/jupiter.png">JUPITER</option>
+                <option value="1.06" data-image="assests/images/saturn.png">SATURN</option>
+                <option value="0.92" data-image="assests/images/uranus.png">URANUS</option>
+                <option value="1.19" data-image="assests/images/neptune.png">NEPTUNE</option>
+                <option value="0.61" data-image="assests/images/pluto.png">PLUTO</option>
+                <option value="1.62" data-image="assests/images/moon.png">MOON</option>
+
+            </select>
+
+            <button class="calculate  nav_items">Calculate weight</button>
+        </div>
+        <p class="hide"></p>
+        <div class="starting">
+        <img src="assests/images/earth.png" alt="">
+    </div>
+        <div class="planet_container">
+
+            <div class="result_planet_img">
+                <img src="assests/images/jupiter.png" alt="" id="planet_image">
+            </div>
+            <div class="result_mass">
+                <div class="selected_planet_result"></div>
+                <div class="selected_planet_mass"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+     
+    </script>
+</body>
+
+</html>

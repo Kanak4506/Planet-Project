@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('assests/gif/galaxy.gif');
+}
+
+.main_container {
+    width: 1100px;
+    /* border: 2px solid blue; */
+    padding: 40px 5px;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    font-size: 38px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.nav_items{
+    width: 200px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: cursive;
+    height: 40px;
+    padding: 0px 15px;
+}
+
+.calculate{
+    background-color: #6b6b6b;
+    color: white;
+}
+.hide{
+    text-align: center;
+    font-size: 25px;
+    font-family: math;
+    font-weight: bold;
+    color: white;
+    display: none;
+}
+
+.planet_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    background-color: #212121ab;
+    padding: 25px;
+}
+
+.starting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result_mass{
+    height: 200px;
+    width: 400px;
+    padding: 12px;
+    background-color: #3939387c;
+}
+.selected_planet_result{
+    font-family: cursive;
+    height: 60px;
+    font-size: 23px;
+    color: white;
+}
+.selected_planet_mass{
+    padding: 30px;
+    margin: 13px;
+    font-size: 20px;
+    margin-left: 250px;
+    border-radius: 50%;
+    color: white;
+    background-color: #494949;
+}
